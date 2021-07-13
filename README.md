@@ -1,7 +1,7 @@
 <img width="859" alt="image" src="https://user-images.githubusercontent.com/36702096/125438950-af3126c4-6a23-428f-b15b-49901a5d0bf9.png">
 
 
-# Python RLC Workshop für Anfänger:innen
+# Programmieren für Anfänger:innen
 
 ## Termin: 
 
