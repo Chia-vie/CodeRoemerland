@@ -18,13 +18,11 @@
 
 weitere kurze Pausen je nach Bedarf
 
-## Software:
+## Benötigte Software:
 
-Bitte folgende Software herunterladen:
++ Bitte folgende Software herunterladen: https://www.jetbrains.com/de-de/pycharm-edu/
 
-+ https://www.jetbrains.com/de-de/pycharm-edu/
-
-Datei im Download-Ordner lassen, die Installation erfolgt gemeinsam im Kurs.
+  Datei im Download-Ordner lassen, die Installation erfolgt gemeinsam im Kurs.
 
 + Zoom
 + Ein E-mail Konto 
