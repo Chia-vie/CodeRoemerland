@@ -22,7 +22,7 @@ weitere kurze Pausen je nach Bedarf
 
 Bitte folgende Software herunterladen:
 
-https://www.jetbrains.com/de-de/pycharm-edu/
++ https://www.jetbrains.com/de-de/pycharm-edu/
 
 Datei im Download-Ordner lassen, die Installation erfolgt gemeinsam im Kurs.
 
@@ -31,22 +31,22 @@ Datei im Download-Ordner lassen, die Installation erfolgt gemeinsam im Kurs.
 
 ## Benötigte Ausrüstung:
 
-Laptop/PC mit Windows 10 oder MacOS Catalina/BigSur
++ Laptop/PC mit Windows 10 oder MacOS Catalina/BigSur
 
-**Mindestens** 5 GB freier Speicherplatz 
++ **Mindestens** 5 GB freier Speicherplatz 
 
-Rechte zum Installieren von Software
++ Rechte zum Installieren von Software
 
-Headset oder Mikrofon + Lautsprecher
++ Headset oder Mikrofon + Lautsprecher
 
 
 ## Zusätzlich Empfohlen: 
 
-Ein zusätzlicher Bildschirm für synchrones Arbeiten während des Unterrichts in Zoom
++ Ein zusätzlicher Bildschirm für synchrones Arbeiten während des Unterrichts in Zoom
 
-Webcam damit wir einander auch sehen können
++ Webcam damit wir einander auch sehen können
 
-Schnelle Internetverbindung
++ Schnelle Internetverbindung
 
 
 
