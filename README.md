@@ -8,15 +8,15 @@
 
 | Modus       | Zeit         |
 | ----------- | -------------|
-| 1. Einheit  | 08:30 - 10:30|
+| 1. Einheit  | **08:30** - 10:30|
 | Pause       | 10:30 - 11:00|
 | 2. Einheit  | 11:00 - 12:30|
 | Mittagspause| 12:30 - 14:00|
 | 3. Einheit  | 14:00 - 15:30|
 | Pause       | 15:30 - 16:00|
-| 4. Einheit  | 16:00 - 18:00|
+| 4. Einheit  | 16:00 - **18:00**|
 
-weitere kurze Pausen je nach Bedarf
+Weitere kurze Pausen je nach Bedarf
 
 ## Benötigte Software:
 
@@ -33,7 +33,7 @@ weitere kurze Pausen je nach Bedarf
 
 + **Mindestens** 5 GB freier Speicherplatz 
 
-+ Rechte zum Installieren von Software
++ Rechte zum Installieren von Software (Administratorrechte nicht erforderlich)
 
 + Headset oder Mikrofon + Lautsprecher
 
@@ -42,7 +42,7 @@ weitere kurze Pausen je nach Bedarf
 
 + Ein zusätzlicher Bildschirm für synchrones Arbeiten während des Unterrichts in Zoom
 
-+ Webcam damit wir einander auch sehen können
++ Webcam damit wir einander sehen können
 
 + Schnelle Internetverbindung
 
