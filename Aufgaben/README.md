@@ -1,8 +1,8 @@
 ## Aufgaben
 
-Hier findest du die Aufgabenstellungen. Lies dir die Aufgaben genau durch bevor du beginnst.
+Hier findet ihr die Aufgabenstellungen. Lest euch die Aufgaben genau durch bevor ihr beginnt.
 
-Lade deine Lösungen im Ordner Abgaben hoch.
+Ladet alle Dateien die ihr erstellt auf GitHub in den Ordner Abgaben hoch.
 
 ### Hello World:
 Erstelle eine neue Python-Datei.
