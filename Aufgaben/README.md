@@ -65,3 +65,13 @@ In Teams zu zweit:
 Erstellt eine neue Python-Datei. Benennt sie so: 5_Fehlermeldungen_Vorname1_Vorname2.py
 Schaut euch die Datei Fehler.py auf GitHub an und korrigiert sie.
 Schreibt auf, welche Fehlermeldungen ihr gefunden habt.
+
+## Quiz:
+In Teams zu zweit:
+
+Erstellt eine neue Python-Datei. Benennt sie so: 6_Quiz_Vorname1_Vorname2.py
+
+Schreibt ein Quiz über ein Thema das euch beide besonders interessiert. 
+Das Quiz soll mindestens 3 Fragen beinhalten. 
+Der/die User*in soll die Fragen beantworten. Sind die Antworten richtig erhält er/sie einen Punkt.
+Am Ende soll der Punktestand ausgegeben werden. 
