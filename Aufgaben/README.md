@@ -54,11 +54,11 @@ Schreibe ein Programm das eine Geschwindigkeit in km/h (Kilometer pro Stunde) ab
 in m/s (Meter pro Sekunde) umwandelt.
 
 Tipp:
+
 <img src="https://render.githubusercontent.com/render/math?math=1 km/h = \frac{1}{3.6} m/s">
-```math
-1 km/h = \frac{1}{3.6} m/s,
-1 m/s = 3.6 km/h
-```
+
+<img src="https://render.githubusercontent.com/render/math?math=1 m/s = 3.6 km/h">
+
 
 ### Fehlermeldungen
 In Teams zu zweit:
