@@ -55,9 +55,8 @@ in m/s (Meter pro Sekunde) umwandelt.
 
 Tipp:
 
-[!Equation] 1 km/h = $\frac{1}{3.6}$ m/s,
-
-1 m/s = 3.6 km/h
+![equation](1 km/h = $\frac{1}{3.6}$ m/s,
+1 m/s = 3.6 km/h)
 
 ### Fehlermeldungen
 In Teams zu zweit:
