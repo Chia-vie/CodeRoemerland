@@ -54,9 +54,9 @@ Schreibe ein Programm das eine Geschwindigkeit in km/h (Kilometer pro Stunde) ab
 in m/s (Meter pro Sekunde) umwandelt.
 
 Tipp:
-$inline$
+$inline
 1 km/h = $\frac{1}{3.6}$ m/s,
-1 m/s = 3.6 km/h
+1 m/s = 3.6 km/h$
 
 ### Fehlermeldungen
 In Teams zu zweit:
