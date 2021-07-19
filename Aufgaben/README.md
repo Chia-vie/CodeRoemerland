@@ -6,7 +6,7 @@ Ladet alle Dateien die ihr erstellt auf GitHub in den Ordner Abgaben hoch.
 
 ### Hello World:
 Erstelle eine neue Python-Datei.
-Benenne sie so: 1_HelloWorld_DeinVorname.py
+Benenne sie so: HelloWorld_DeinVorname.py
 
 Schreibe folgendes in die Datei:
 
@@ -16,7 +16,7 @@ Führe die Datei aus!
 
 ### Acii-Art:
 Erstelle eine neue Python-Datei.
-Benenne sie so: 2_AsciiArt_DeinVorname.py
+Benenne sie so: AsciiArt_DeinVorname.py
 
 "Male" ein Tier mit dem print() Befehl.
 
@@ -30,7 +30,7 @@ Author, Datum, Beschreibung
 und Link und Author der Vorlage (falls du eine Vorlage benutzt hast)
 
 ### Rechenoperationen:
-Erstelle eine neue Python-Datei. Benenne sie so: 3_Rechenoperationen_DeinVorname.py
+Erstelle eine neue Python-Datei. Benenne sie so: Rechenoperationen_DeinVorname.py
 
 Schreibe ein kurzes Programm das mehrere Rechenoperationen durchführt,
 die Ergebnisse in mehreren Variablen speichert und
@@ -39,7 +39,7 @@ diese Variablen mit dem print() Befehl ausgibt.
 ### User Eingabe
 In Teams zu zweit:
 
-Erstellt eine neue Python-Datei. Benennt sie so: 4_UserEingabe_Vorname1_Vorname2.py
+Erstellt eine neue Python-Datei. Benennt sie so: UserEingabe_Vorname1_Vorname2.py
 
 Schreibt ein kurzes Programm, das einen Dialog mit dem/der Benutzer*in führt.
 Benutzt dafür mindestens drei mal den input() Befehl.
@@ -48,7 +48,7 @@ Benutzt dafür mindestens drei mal den input() Befehl.
 
 In Teams zu zweit:
 
-Erstellt eine neue Python-Datei. Benennt sie so: 5_GeschwindigkeitsKonverter_Vorname1_Vorname2.py
+Erstellt eine neue Python-Datei. Benennt sie so: GeschwindigkeitsKonverter_Vorname1_Vorname2.py
 
 Schreibe ein Programm das eine Geschwindigkeit in km/h (Kilometer pro Stunde) abfragt und
 in m/s (Meter pro Sekunde) umwandelt.
@@ -63,14 +63,14 @@ Tipp:
 ### Fehlermeldungen
 In Teams zu zweit:
 
-Erstellt eine neue Python-Datei. Benennt sie so: 5_Fehlermeldungen_Vorname1_Vorname2.py
+Erstellt eine neue Python-Datei. Benennt sie so: Fehlermeldungen_Vorname1_Vorname2.py
 Schaut euch die Datei Fehler.py auf GitHub an und korrigiert sie.
 Schreibt auf, welche Fehlermeldungen ihr gefunden habt.
 
 ## Quiz:
 In Teams zu zweit:
 
-Erstellt eine neue Python-Datei. Benennt sie so: 6_Quiz_Vorname1_Vorname2.py
+Erstellt eine neue Python-Datei. Benennt sie so: Quiz_Vorname1_Vorname2.py
 
 Schreibt ein Quiz über ein Thema das euch beide besonders interessiert. 
 Das Quiz soll mindestens 3 Fragen beinhalten. 
