@@ -58,7 +58,7 @@ Tipp:
 1 km/h = \frac{1}{3.6} m/s,
 1 m/s = 3.6 km/h$
 ```
-$1 km/h = \frac{1}{3.6} m/s,
+$`1 km/h = \frac{1}{3.6} m/s,
 1 m/s = 3.6 km/h$
 
 ### Fehlermeldungen
