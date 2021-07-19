@@ -9,18 +9,18 @@ else:
     print('Die Antwort ist leider nicht richtig!')
 
 antwort2 = 'Venus'
-frage2 = input('Was ist der heißeste Planet im Sonnensystem?')
+frage2 = input('Was ist der heißeste Planet im Sonnensystem? ')
 if frage2 == antwort2:
     print('Gut Gemacht, du bekommst 1 Punkt für eine richtige Antwort!')
-    x += 2
+    x += 1
 else:
     print('Die Antwort ist leider nicht richtig!')
 
 antwort3 = 'Saturn'
-frage3 = input('Welcher Planet hat einen Ring?')
+frage3 = input('Welcher Planet hat einen Ring? ')
 if frage3 == antwort3:
     print('Gut Gemacht, du bekommst 1 Punkt für eine richtige Antwort!')
-    x += 3
+    x += 1
 else:
     print('Die Antwort ist leider nicht richtig!')
 print (x)
