@@ -93,3 +93,15 @@ Schreibt ein Quiz über ein Thema das euch beide besonders interessiert.
 Das Quiz soll mindestens 3 Fragen beinhalten. 
 Der/die User*in soll die Fragen beantworten. Sind die Antworten richtig erhält er/sie einen Punkt.
 Am Ende soll der Punktestand ausgegeben werden. 
+
+## Quiz Schleife:
+
+Im gleichen Team wie bei der vorigen Aufgabe:
+
+Erstellt eine neue Python-Datei. Benennt sie so: QuizSchleife_Vorname1_Vorname2.py
+
+Verpackt euer Quiz in eine Schleife damit man es noch einmal spielen kann. 
+
+
+
+
