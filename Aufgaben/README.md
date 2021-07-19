@@ -59,6 +59,23 @@ Tipp:
 
 <img src="https://render.githubusercontent.com/render/math?math=1 m/s = 3.6 km/h">
 
+### Mad Libs
+
+In Teams zu zweit:
+
+Erstellt eine neue Python-Datei. Benennt sie so: MadLibs_Vorname1_Vorname2.py
+
+Schreibt ein Programm, das mindestens 3 Wörter abfragt und diese 3 Wörter in einen Text einbaut.
+
+Beispiel:
+
+Abfrage:
+Ein Adjektiv, ein Nomen, ein Verb
+
+Ausgabe:
+Heute ist es wirklich sehr _______ draußen. 
+Deshalb gehe ich mit meiner _______ spazieren. 
+Später werden wir noch ________.
 
 ### Fehlermeldungen
 In Teams zu zweit:
