@@ -98,7 +98,7 @@ elif pfad == 'H':
     time.sleep(1)
     print('Oh! Sieh nur! Da vorne ist ein Licht!')
     licht = input('Sollen wir hingehen? \n').upper()
-    if licht == 'J':
+    if licht == 'JA':
         print('PENG!')
         print('GAME OVER!')
         quit()

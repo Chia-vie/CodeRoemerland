@@ -7,7 +7,7 @@ wörter = 'Quizshow, Vollmond, Hollywood, Puderzucker, Dumpfbacke, Kuddelmuddel,
 wörter = list(wörter.split(', '))
 # Ein zufälliges Wort auswählen
 wort = list(wörter[random.randint(0,len(wörter))].upper())
-#print(wort)
+print(wort)
 
 # Gezeigt wird ein String aus lauter Leerzeichen.
 wort_display=[]
@@ -32,6 +32,15 @@ if not guess in geraten:
         richtig.discard(guess)
 else:
     print(f'Du hast bereits den Buchstaben {guess} versucht.')
+
+print('''
+ ___
+|  |
+|  o
+|  Y
+| /\\
+|________
+''')
 
 
 
