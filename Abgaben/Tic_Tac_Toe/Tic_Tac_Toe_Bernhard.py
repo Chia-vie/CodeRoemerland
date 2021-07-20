@@ -1,3 +1,4 @@
+import pyfiglet
 Symbol = 'X'
 wait = 1
 
@@ -25,7 +26,8 @@ def Gewinn():
         Spielzüge[2] == Spielzüge[5] == Spielzüge[8] or
         Spielzüge[0] == Spielzüge[4] == Spielzüge[8] or
         Spielzüge[2] == Spielzüge[4] == Spielzüge[6]):
-            print(f'{Symbol} DU HAST GEWONNEN! GRATULIERE!')
+            ascii_banner = pyfiglet.figlet_format(f'{Symbol} HAT GEWONNEN!')
+            print(ascii_banner)
             exit(0)
 
 
