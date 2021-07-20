@@ -1,8 +1,7 @@
 '''
-author: Christine Ackerl
+author: Bernhard Wolf
 date: 20.07.2021
-Das ist ein unvollständiges Tic-Tac-Toe Spiel.
-Kannst du es vervollständigen?
+Tic-Tac-Toe Spiel.
 '''
 Symbol = 'X'
 wait = 1
