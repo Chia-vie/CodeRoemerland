@@ -13,9 +13,9 @@ class Ball:
     def __init__(self,spielfeld,schleager):
         self.spielfeld = spielfeld
         self.schleager = schleager
-        self.form=spielfeld.create_oval(10,10,40,40,fill='white')
-        self.xges=random.randrange(-2,2)
-        self.yges=random.randrange(-2,2)
+        self.form=spielfeld.create_oval(10,10,40,40,fill='green')
+        self.xges=random.uniform(0,0.1)
+        self.yges=-0.1
         self.hit_bottom =False
 
 
@@ -23,19 +23,22 @@ class Ball:
         self.spielfeld.move(self.form,self.xges,self.yges)
         position=self.spielfeld.coords(self.form)
         if position[1]<=0:
-            self.yges=-2
+            self.yges=0.1
         if position[3]>=400:
             self.hit_bottom=True
         if position[0]<= 0:
-            self.xges=2
+            self.xges=0.1
         if position[2]>=500:
-            self.xges=-2
+            self.xges=-0.1
+        if self.hit_paddle(position) == True:
+            self.yges = -0.1
+            self.xges = random.uniform(-1,1)
 
 
-    def hit_paddle(self,pos):
-        paddle_pos=self.spielfeld.coords(self.schleager.form)
-        if pos[2]>= paddle_pos[0]and pos[0]<= paddle_pos[2]:
-            if pos[3]>= paddle_pos[1] and pos[3]<= paddle_pos[3]:
+    def hit_paddle(self, pos):
+        paddle_pos = self.spielfeld.coords(self.schleager.form)
+        if pos[2] >= paddle_pos[0] and pos[0] <= paddle_pos[2]:
+            if pos[3] >= paddle_pos[1] and pos[3] <= paddle_pos[3]:
                 return True
         return False
 
@@ -45,8 +48,8 @@ class Schlaeger:
         self.spielfeld=spielfeld
         self.form=spielfeld.create_rectangle(0,0,120,10,fill='black')
         self.spielfeld.move(self.form,200,350)
-        self.spielfeld.bind('a',self.links)
-        self.spielfeld.bind('d',self.rechts)
+        self.spielfeld.bind_all('a',self.links)
+        self.spielfeld.bind_all('d',self.rechts)
         self.xges=0
 
     def hinher(self):
@@ -58,12 +61,12 @@ class Schlaeger:
             self.xges=0
 
     def links(self,event):
-        self.xges=-2
+        self.xges=-0.1
         self.yges=0
 
     def rechts(self,event):
-        self.xges=-2
-        self.yges=2
+        self.xges=0.1
+        self.yges=0
 
 
 fenster =tk.Tk()
