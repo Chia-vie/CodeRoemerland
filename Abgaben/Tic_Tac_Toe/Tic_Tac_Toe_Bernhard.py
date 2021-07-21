@@ -1,8 +1,4 @@
-'''
-author: Bernhard Wolf
-date: 20.07.2021
-Tic-Tac-Toe Spiel.
-'''
+import pyfiglet
 Symbol = 'X'
 wait = 1
 
@@ -21,55 +17,36 @@ Hier ist euer Spielfeld:
 {Spielfeld}
 Spieler*in 1, du beginnst. 
 ''')
-while wait == 1:
+def Gewinn():
     if (Spielzüge[0] == Spielzüge[1] == Spielzüge[2] or
-    Spielzüge[3] == Spielzüge[4] == Spielzüge[5] or
-    Spielzüge[6] == Spielzüge[7] == Spielzüge[8] or
-    Spielzüge[0] == Spielzüge[3] == Spielzüge[6] or
-    Spielzüge[1] == Spielzüge[4] == Spielzüge[7] or
-    Spielzüge[2] == Spielzüge[5] == Spielzüge[8] or
-    Spielzüge[0] == Spielzüge[4] == Spielzüge[8] or
-    Spielzüge[2] == Spielzüge[4] == Spielzüge[6]):
-        print(f'{Symbol} DU HAST GEWONNEN! GRATULIERE!')
-        break
+        Spielzüge[3] == Spielzüge[4] == Spielzüge[5] or
+        Spielzüge[6] == Spielzüge[7] == Spielzüge[8] or
+        Spielzüge[0] == Spielzüge[3] == Spielzüge[6] or
+        Spielzüge[1] == Spielzüge[4] == Spielzüge[7] or
+        Spielzüge[2] == Spielzüge[5] == Spielzüge[8] or
+        Spielzüge[0] == Spielzüge[4] == Spielzüge[8] or
+        Spielzüge[2] == Spielzüge[4] == Spielzüge[6]):
+            ascii_banner = pyfiglet.figlet_format(f'{Symbol} HAT GEWONNEN!')
+            print(ascii_banner)
+            exit(0)
 
-    '''
-    Das sind alle möglichen Positionen der Symbole in denen die Spielerin gewinnt:
-     ___ ___ ___     ___ ___ ___     ___ ___ ___ 
-    |_X_|_X_|_X_|   |___|___|___|   |___|___|___|
-    |___|___|___|   |_X_|_X_|_X_|   |___|___|___|
-    |___|___|___|   |___|___|___|   |_X_|_X_|_X_|
-     ___ ___ ___     ___ ___ ___     ___ ___ ___     
-    |_X_|___|___|   |___|_X_|___|   |___|___|_X_|
-    |_X_|___|___|   |___|_X_|___|   |___|___|_X_|
-    |_X_|___|___|   |___|_X_|___|   |___|___|_X_|
-     ___ ___ ___     ___ ___ ___ 
-    |_X_|___|___|   |___|___|_X_| 
-    |___|_X_|___|   |___|_X_|___|
-    |___|___|_X_|   |_X_|___|___|
-    Dasselbe gilt natürlich auch für 'O'.
-    '''
-    # Wir sehen in der Liste der Spielzüge nach ob eine der Gewinnmöglichkeiten zutrifft
-    Symbol = 'X'
-    zug = input(f'Spieler*in 1, in welches Feld möchtest du dein {Symbol} setzen? \n')
+
+def Spieler():
+    global Spielfeld
+    zug = input(f'Spieler*in, in welches Feld möchtest du dein {Symbol} setzen? \n')
     Spielfeld = Spielfeld.replace(zug,Symbol)
     Spielzüge[int(zug)] = Symbol
     print(Spielfeld)
+def SpielerWechsel():
+        global Symbol
+        if Symbol == 'X':
+            Symbol = 'O'
+        else:
+            Symbol = 'X'
+while wait == 1:
+    Gewinn()
+    Spieler()
+    SpielerWechsel()
 
-    # Wenn gerade Spieler*in 1 an der Reihe war kommt jetzt Spieler*in 2 dran, und umgekehrt
-    if Symbol == 'X':
-       Symbol = 'O'
-    else:
-        Symbol = 'X'
-
-
-    # Der/die Spielerin macht einen Zug
-    zug = input(f'Spieler*in 2, in welches Feld möchtest du dein {Symbol} setzen? \n')
-    # Spielfeld erneuern
-    Spielfeld=Spielfeld.replace(zug,Symbol)
-    # Spielzug speichern
-    Spielzüge[int(zug)] = Symbol
-    # Neues Spielfeld ausgeben
-    print(Spielfeld)
 
 
